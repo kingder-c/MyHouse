@@ -7,4 +7,4 @@ WORKDIR /project/node
 
 EXPOSE 7001
 
-CMD ["npm","run","start"]
+CMD ["npm","run","dev"]
