@@ -9,3 +9,11 @@ class HomeController extends Controller {
 }
 
 module.exports = HomeController;
+
+module.exports = class getHouseByTime extends Controller {
+  async getTimeByTime() {
+    this.ctx.body = {
+      test: 'test',
+    };
+  }
+};
