@@ -9,5 +9,5 @@ module.exports = app => {
 };
 module.exports = getHouseByTime => {
   const { router, controller } = getHouseByTime;
-  router.get('/getHouseByTime', controller.home.index);
+  router.get('/getHouseByTime', controller.home.getHouseByTime);
 };

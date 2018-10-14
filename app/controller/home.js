@@ -6,14 +6,11 @@ class HomeController extends Controller {
   async index() {
     this.ctx.body = 'hi, egg';
   }
-}
-
-module.exports = HomeController;
-
-module.exports = class getHouseByTime extends Controller {
-  async getTimeByTime() {
+  async getHouseByTime() {
     this.ctx.body = {
       test: 'test',
     };
   }
-};
+}
+
+module.exports = HomeController;
