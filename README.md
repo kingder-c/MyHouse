@@ -8,7 +8,7 @@
 
 see [egg docs][egg] for more detail.
 
-### Developmen
+### Developmens
 
 ```bash
 $ npm i
