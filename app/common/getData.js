@@ -67,7 +67,7 @@ class HomeController {
     return new Promise(resolve => {
       setTimeout(() => {
         resolve(1);
-      }, 90000);
+      }, 300000);
     });
   }
 }
