@@ -23,7 +23,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "npm install . && npx egg-scripts start --port=7001 --title=egg-server-my-house --workders 1",
+    "start": "npm install . && npx egg-scripts start --port=7001 --title=egg-server-my-house --workers 1",
     "stop": "egg-scripts stop --title=egg-server-my-house",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
