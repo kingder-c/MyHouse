@@ -15,7 +15,7 @@ class HomeController extends Controller {
     let waitFlag = false;
     for (let i = 0; i < List.length; i++) {
       const areaUrl = baseUrl + List[i];
-      for (let j = 1; j <= 70; j++) {
+      for (let j = 1; j <= 10; j++) {
         if (waitFlag) {
           waitFlag = !waitFlag;
           j--;
